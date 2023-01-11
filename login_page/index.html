@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>    
+        <body>
+            <div class="header">
+            <img src="icons/logo used in header.svg">
+            </div>
+            <div class="content">
+            <form class="container">
+                
+                <div class="flex">
+                    <img src="icons/back.svg">
+                    <h2>Log in with Quantum</h2>
+                </div>        
+                <div class="flex">    
+                    <img class="img" src="icons/radio-button-on.svg">
+                    <p>District</p>
+                    <img class="img" src="icons/radio-button-off.svg">
+                    <p>Independent school</p>
+                </div>
+                    <label style="display:block;color: #666666; margin-top: 20px;">State*</label><br>
+                    <select style="font-weight: bold;" class="sel">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District Of Columbia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select><br>
+                    <label class="dist">District* </label><br>
+                    <select class="sel">
+                        <option value="alab">Alabama School District</option>
+                        <option value="aster">Alabaster City Schools</option>
+                        <option value="alex">Alexander City Schools</option>
+                        <option value="anni">Anniston City Schools</option>
+                        <option value="ath">Athens City Schools</option>
+                    </select><br>
+                    
+                    <input type="text" style="margin-top:60px" placeholder="Username/Email ID*"><br>
+                    <label class="lbll">FORGOT USERNAME?</label><br>
+                    <div class="form-item">
+
+                        <input type="password" placeholder="Password*" id="password"><br>
+                        <span class="preview" onclick="showPassword()"></span>
+                    </div>
+                    <label class="lbll">FORGOT PASSWORD?</label><br>
+
+                    <div class="rem">
+                    <img src="icons/checkbox-checked.svg">
+                    <label>Remember Me</label><br>
+                    </div>
+                    <div class="btn">
+                    <button class="logbtn">LOG IN</button><br>
+                    </div>
+            </form>
+            </div>
+              
+            <div class="footer">    
+            <div class="footer-link">
+                <p><a href="#">About</a> | <a href="#">Contact Us</a></p>
+            </div>
+            <div class="flex footer-bottom">
+                <img src="icons/logo used in footer.svg">
+                 
+                    <p class="space">| Copyright &#169 2020-2021 Zeus Systems Pvt. Ltd. &nbsp&nbsp All rights reserved.</p>
+                    
+                
+            </div>
+            </div>
+
+            
+    <script>
+        function showPassword() {
+          var password = document.getElementById("password");
+          if (password.type === "password") {
+            password.type = "text";
+          } else {
+            password.type = "password";
+          }
+        }
+      </script>
+        </body>
+    
+</html>

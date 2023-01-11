@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(229, 224, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgb(173, 38, 38);
+    border-bottom: 10px solid rgb(218, 39, 39);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 15px;
+}
+
+h2{
+    background-color: rgb(25, 162, 25);
+    color: white;
+    padding-left: 12px;
+}
+
+img{ 
+    width: 150px;
+}
+
+ul{
+    color: rgb(199, 41, 41);
+    font-style: italic;
+    
+}
+
+h3{
+    color: rgb(149, 144, 138);
+}
+
+.tb, textarea {
+    margin: 10px 0px ;
+}
+
+textarea{
+    overflow-y: scroll;
+    height: 100px;
+    width: 200px;
+    resize: none;
+} 

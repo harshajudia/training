@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    margin-top: 4px;
+    margin-left:4px;
+}
+
+.card{
+    width:457px;
+    height:138px;
+    border: 5px solid blue;
+    display:flex;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.para{
+    margin-left:14px;
+}
+
+#p1{
+    margin-bottom: 0px;
+}
+
+#p2{
+    margin: 14px 0px 20px 0px;
+    font-weight: normal;
+}
+
+.jpg{
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+}
+
+.flexr{
+    display: flex;
+    font-weight: normal;
+}
+
+.count{
+    margin: 5px;
+    font-size:15px; 
+    margin-left: 14px;
+    margin-right: 24px;
+}
